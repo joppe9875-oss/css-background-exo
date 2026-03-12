@@ -1,21 +1,135 @@
 body{
     background:#F2F2F2;
-    font-size:medium
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
 }
 
 h1{
     text-align: center;
+
+}
+
+p{
+    font-size: 16px;
 }
 
 div{
-    background-color: #FF5B1B;
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
     float: left;
-    margin: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px; 
 }
 
-.div_left{
-    margin-left:30px;
+.div01{
+    background-color: #FF5B1B;
+    margin-left: 30px;
+}
+
+.div02{
+    background-color: #1bff1f;
+}
+
+section{
+    float: left;
+}
+
+.linear{
+    background-image:linear-gradient(to bottom,#FC5B1B,#02F95B);
+}
+
+.radial{
+    background-image: radial-gradient(#FC5B1B,#02F95B);
+    float:left;
+}
+
+.linear_toright{
+    background-image:linear-gradient(to right,#02F95B,#FC5B1B);
+}
+
+.linear_diagonal{
+    background-image: linear-gradient(to bottom left,#02F95B,#FC5B1B );
+    
+}
+
+.pos_1{
+    background-image: url(../assets/img/bg_image.jpg);
+    background-position: left top;
+}
+
+.pos_2{
+   background-image: url(../assets/img/bg_image.jpg);
+   background-position: center;    
+}
+
+.pos_3{
+   background-image: url(../assets/img/bg_image.jpg);
+   background-position: right;    
+}
+
+.pos_4{
+    background-image: url(../assets/img/bg_image.jpg);
+    background-position: left;    
+}
+
+.bg_repeat_none{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;
+    background-repeat:no-repeat;
+}
+
+.bg_repeat_x{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;
+    background-repeat:repeat-x;
+}
+
+.bg_repeat_y{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;
+    background-repeat:repeat-y;
+}
+
+.bg_size_small{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;    
+    background-size: 60px 60px;
+}
+
+.bg_size_stretched{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;    
+    background-size: 100px 200px;
+
+}
+
+.bg_size_zoom{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;    
+    background-size:cover;
+}
+
+.bg_bonus{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;     
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: center;    
+}
+
+.bg_exo6{
+    background-image: url(../assets/img/bg_image_petite.jpg);
+    width:600px;
+    height:400px;     
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position:bottom;
+    background-attachment: fixed;        
 }
